@@ -36,42 +36,12 @@ body{
   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*#############################--Card-#################################"*/
 .card{
   background-color:var(--cardbackground);
    display: flex;
    border-radius: 1rem 1rem 1rem 1rem;
-  
- 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
 /*###################- Text-part -###################"*/
 
@@ -83,45 +53,30 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- 
-  
-
 }
-
 .block{
- 
-
 }
-
 .stats{
 
   display: flex;
   flex-wrap:  wrap;
   justify-content:space-between;
-
 }
-
 h1{
   color: var(--main-heading-stats);
   font-size: 2.4rem;
 }
-
-
 span{
   color: var(--accent);
 }
-
 p{
   font-family: 'Inter' ,sans-serif ;
   color: var(--main-paragraph);
   margin-top: 30px;
   font-size: 1rem;
   line-height: 1.8rem;
-  letter-spacing: 0.6px;
-  
-  
+  letter-spacing: 0.6px; 
 }
-
 .stats{
   margin-top: 70px;
 }
@@ -129,8 +84,7 @@ p{
   font-family: 'Inter' ,sans-serif ;
   font-size: 1.5rem;
   color: var(--main-heading-stats);
-  font-weight: bolder;
-  
+  font-weight: bolder; 
 }
 
 .stat-title{
@@ -138,29 +92,13 @@ p{
   font-size: 0.8rem;
   text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
 /*###################- image-part -###################"*/
 
 .card-img-part{
   position: relative;
   border-radius: 1rem 0 0 1rem;
   flex: 1.3;
-  
-       
- 
 }
-
-
-
-
-
 .img-mobile{
  display: none;
 }
@@ -173,10 +111,7 @@ p{
 }
 .img{
   border-radius: 1rem 1rem 0 0; 
- 
-
 }
-
 .pink{
   border-radius: 1rem 1rem 1rem 1rem;
   position: absolute;
@@ -188,28 +123,8 @@ p{
   opacity: 0.25;
   bottom: 0;
   right: 0;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/********************** Media Q *************************/
 @media screen and (max-width: 500px){
 
    
@@ -275,23 +190,10 @@ p{
   
   }
 
-
-
-  
 /*- Text-part -*/
 
 .card-text-part{
-
- 
-  order: 2;
- 
-  
-
-}
-
-.block{
- 
-
+ order: 2;
 }
 
 .stats{
@@ -303,7 +205,6 @@ h1{
   font-size: 2.4rem;
 }
 
-
 span{
   color: var(--accent);
 }
@@ -314,25 +215,19 @@ p{
   margin-top: 30px;
   font-size: 1rem;
   line-height: 1.8rem;
-  letter-spacing: 0.6px;
-  
-  
+  letter-spacing: 0.6px;  
 }
 
 .stats{
- 
   display: flex;
   flex-wrap: wrap;
   margin-top: 70px;
-
 }
 .stat-num{
   font-family: 'Inter' ,sans-serif ;
   font-size: 1.5rem;
   color: var(--main-heading-stats);
   font-weight: bolder;
- 
-  
 }
 
 .stat-title{
